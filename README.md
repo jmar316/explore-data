@@ -7,3 +7,4 @@ Instructions for yelp_exploratory_analysis.R:
 - Code pokes around yelp.com data examining relationships between variables. 
 (Includes pre-processing)
 
+- Input: yelp.dat.txt
