@@ -73,7 +73,7 @@ plot(yelp_data$longitude, yelp_data$likes, main = "Attributes with largest negat
 ##################################################################################
 yelp_data$nightlife_yn <- 0 
 for (i in 1:length(yelp_data$categories)){
-  grep_result = grepl("Nightlife", yelp_data$categories[i]))
+  grep_result = grepl("Nightlife", yelp_data$categories[i])
   if(grep_result == "TRUE"){
     yelp_data$nightlife_yn[i] <- 1
   }
